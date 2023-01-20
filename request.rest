@@ -1,0 +1,28 @@
+GET http://localhost:3003/teachers
+Content-Type: application/json
+
+###
+
+POST http://localhost:3003/class
+Content-Type: application/json
+
+{
+    "id": 2,
+    "name": "Lammar 02",
+    "initial_date": "2022-04-12",
+    "end_date": "2023-04-12",
+    "type": "integral"
+}
+
+### 
+
+POST http://localhost:3003/teacher
+Content-Type: application/json
+
+{
+    "id": 15,
+    "name": "Joana",
+    "email": "joana@email.com",
+    "dateBirth": "1995-02-28",
+    "classId": 1
+}
